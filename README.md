@@ -11,7 +11,7 @@ Define and track Key Performance Indicators (KPIs) related to customer retention
 Deliver actionable insights through dynamic dashboards and visuals, enabling the bank to craft effective retention policies and make strategic decisions.
 
 
-![Bank-Churn_Analysis](screenshot(85).png)
+![Bank-Churn-Analysis](screenshot(85).png)
 
 
 
