@@ -1,3 +1,5 @@
+![Bank-Churn-Analysis](Dashboard.png)
+
 This project involved a comprehensive analysis of customer churn within a banking context using Power BI. The core aim was to uncover key factors contributing to churn by analyzing customer demographics and financial behavior. These findings were intended to support data-driven strategies that enhance customer loyalty and reduce attrition.
 
 Problem Statement:
@@ -9,11 +11,6 @@ Discover patterns and insights around churn behavior to identify customer groups
 Analyze customer attributes such as age, gender, credit score, tenure, and balance to profile and segment churn-prone customers.
 Define and track Key Performance Indicators (KPIs) related to customer retention and attrition.
 Deliver actionable insights through dynamic dashboards and visuals, enabling the bank to craft effective retention policies and make strategic decisions.
-
-
-![Bank-Churn-Analysis](Dashboard.png)
-
-
 
 Project Structure
 
