@@ -10,6 +10,11 @@ Analyze customer attributes such as age, gender, credit score, tenure, and balan
 Define and track Key Performance Indicators (KPIs) related to customer retention and attrition.
 Deliver actionable insights through dynamic dashboards and visuals, enabling the bank to craft effective retention policies and make strategic decisions.
 
+
+![Bank-Churn_Analysis](screenshot(85).png)
+
+
+
 Project Structure
 
 Data Cleaning and Preprocessing The first phase focused on preparing the data for analysis:
