@@ -1,46 +1,46 @@
 ![Bank-Churn-Analysis](Dashboard.png)
 
-This project involved a comprehensive analysis of customer churn within a banking context using Power BI. The core aim was to uncover key factors contributing to churn by analyzing customer demographics and financial behavior. These findings were intended to support data-driven strategies that enhance customer loyalty and reduce attrition.
+## 🧠 Key Insights
 
-Problem Statement:
-Customer churn poses a major challenge for banks, often resulting in revenue loss and a shrinking customer base.
+- 📉 **Churn Rate:**  
+  The overall churn rate is **20.37%**, with **2,037 out of 10,000 customers lost**.
 
-Project Goals:
+- 👥 **Gender Distribution:**  
+  - Slightly more female customers (**54.5%**) than male customers.  
+  - Churn appears evenly distributed across genders.
 
-Discover patterns and insights around churn behavior to identify customer groups at higher risk of leaving.
-Analyze customer attributes such as age, gender, credit score, tenure, and balance to profile and segment churn-prone customers.
-Define and track Key Performance Indicators (KPIs) related to customer retention and attrition.
-Deliver actionable insights through dynamic dashboards and visuals, enabling the bank to craft effective retention policies and make strategic decisions.
+- 🔘 **Active Membership Matters:**  
+  - Active members are less likely to churn:  
+    - **51.5%** are active (5,151 customers).  
+    - Inactive customers show higher churn rates.
 
-Project Structure
+- 💳 **Credit Card Ownership:**  
+  - **71%** of customers own credit cards.  
+  - Those **without credit cards** tend to have higher churn rates,  
+    suggesting credit card engagement may improve retention.
 
-Data Cleaning and Preprocessing The first phase focused on preparing the data for analysis:
-Use First Row as Header: Ensured that the first row of the dataset was set as the header. image
+- 🌍 **Geography-wise Churn:**  
+  - **France** has the highest customer base (**50%**) and a relatively higher churn  
+    compared to **Germany** and **Spain**.  
+  - Localization strategies may be required to reduce churn in French regions.
 
-Remove Useless Columns: Irrelevant columns like estimated_salary were removed to avoid noise in the analysis. image
-Rename Columns: Columns were renamed for clarity, making it easier to interpret the data in the final reports.
-Prepare Data Types: Validated and corrected each column’s data type (e.g., numbers, text, dates).
-Add Conditional Columns: Created age groups (e.g., 20-30, 30-40) for easier customer segmentation. image
-Created credit Group (e.g., <=400, 401-500, 501-600, 601-700, 701-800, >800). image
-Defined account balance categories to segment customers based on their financial standing. image
-Replace Values: Simplified categorical values like credit card ownership (e.g., Owned (1) or Not Owned (0)) for better interpretation in the visualizations. image
-Data Modeling The data was modeled and structured to optimize for querying and visualization in Power BI. Relationships between different variables, such as demographics and churn rates, were established to enable meaningful analysis. image
+- 📦 **Product Holding Impact:**  
+  - Most customers hold either **1 or 2 products**.  
+  - Customers with **only 1 product** have the **highest churn**,  
+    indicating low engagement leads to higher attrition.
 
-Key Performance Indicators (KPIs) Using DAX (Data Analysis Expressions), several key metrics were calculated: Total Number of Customers: The total customer count in the dataset. image
+- 🧓 **Customer Churn by Age Group:**  
+  - Younger customers (**20s and early 30s**) show lower churn.  
+  - **Churn spikes significantly in the 40–50 age group**,  
+    making it a key segment for retention initiatives.
 
-Number of Customers Lost: The count of customers who churned during the analysis period. image
+- 🏦 **Credit Score Influence:**  
+  - Churn is highest in the **“Good” and “Poor”** credit score ranges.  
+  - Surprisingly, **Fair** and **Excellent** score groups exhibit lower churn rates.
 
-Churn Rate: The percentage of customers who left the bank, calculated using DAX measures. image
-
-Data Visualization Interactive visualizations were created to display churn patterns clearly and intuitively: Bar Charts: Illustrated churn across demographics such as age group, gender, tenure, and credit score. Donut Charts: Showed overall churn rate percentages. Interactive Slicers: Allowed filtering by various factors (e.g., gender, age group, credit score) to dynamically explore churn patterns across customer segments. Financial Metrics Visualization: Plots and charts depicted relationships between churn and financial metrics like account balance, tenure, and credit score. image
-
-Analysis and Insights Key insights from the analysis include: Churn by Age Group: High churn in younger customers (20-30): Younger customers exhibited higher churn rates, possibly indicating a need for tailored retention strategies targeting their financial needs. Stable churn among mid-aged groups (40-60): These customers showed lower churn due to longer tenure and higher likelihood of using multiple financial products. Increased churn in older customers (above 60): Older customers, nearing or in retirement, also displayed signs of churn, perhaps due to changing financial priorities.
-
-Churn by Credit Score: Lower credit scores linked to higher churn: Customers with poor or average credit scores were more likely to churn, likely due to financial instability. High credit score customers show loyalty: Customers with high credit scores showed significantly lower churn rates, likely due to trust and usage of premium financial products. Churn by Account Balance:
-
-Lower account balances linked to churn: Customers with lower balances were at higher risk of leaving the bank. Higher balance customers are more stable: These customers tend to rely on long-term financial products, leading to lower churn. Churn by Tenure:
-
-New customers (under 3 years) were more likely to churn, suggesting the need for improved onboarding and engagement efforts. Longer tenure leads to better retention, with customers staying longer showing significantly lower churn.
+- 💰 **Salary vs. Churn:**  
+  - The **$150K–$200K** income group shows the **highest churn rate**.  
+  - Churn is relatively lower among both lower (<$50K) and higher (> $200K) income groups.
 
 Churn by Gender: Both genders showed similar churn rates, but slight variations suggest the possibility of gender-specific retention efforts, with different financial product preferences.
 
