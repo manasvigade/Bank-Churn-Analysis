@@ -1,5 +1,7 @@
 ![Bank-Churn-Analysis](Dashboard.png)
 
+This analysis explores key factors influencing customer churn in a bank using a dataset of 10,000 customers. Insights reveal that churn is higher among inactive members, single-product holders, mid-age customers, and those without credit cards. Geographic patterns and income levels also play a significant role, highlighting opportunities for targeted retention strategies.
+
 ## 🧠 Key Insights
 
 - 📉 **Churn Rate:**  
