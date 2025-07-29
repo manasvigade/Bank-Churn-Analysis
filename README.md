@@ -42,6 +42,4 @@
   - The **$150K–$200K** income group shows the **highest churn rate**.  
   - Churn is relatively lower among both lower (<$50K) and higher (> $200K) income groups.
 
-Churn by Gender: Both genders showed similar churn rates, but slight variations suggest the possibility of gender-specific retention efforts, with different financial product preferences.
 
-Key Achievements Comprehensive Churn Analysis: The analysis provided a complete picture of customer churn based on various factors, helping the business understand the key risk areas for customer attrition. KPI Development: Using DAX measures, important metrics like churn rate, total customers, and lost customers were defined and could be monitored regularly. Interactive Slicers: Allowed users to filter and explore different combinations of demographic and financial data, giving a deeper understanding of churn patterns. Data Cleaning & Preprocessing: Structured the data effectively to ensure accurate analysis and meaningful insights.
